@@ -14,7 +14,6 @@
 }
 .bg-grey{
     background-color: #F3F5F9;
-    color: #031C4E;
 }
 .bg-grad{
     background: rgb(0,25,107);
@@ -78,11 +77,37 @@ section{
     font-weight: 900;
     line-height: 1.1;
 }
+.titolosection{
+    font-family: inherit;
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: 1000;
+    line-height: 1.1;
+    text-align: center;
+    color: #0a204b;
+}
+.titolosection-white{
+    font-family: inherit;
+    margin: 10px 0;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+}
 .undercaption{
     font-weight: 400;
     line-height: 1.5;
     font-size: 34%;
     opacity: 0.7;
+    margin-top: 10px;
+}
+.s_undercaption{
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 60%;
+    opacity: 0.6;
+    margin-top: 10px;
 }
 .btn_create{
     background-color: #579AFF;
@@ -149,4 +174,34 @@ section{
     font-size: 15px;
     color: #6F7B97;
 }
+.s_partners .container > div:last-child{
+    color: #4a92f1;
+    font-weight: 600;
+}
 
+/* DEPLOY AND SCALE SEAMLESSLY  */
+.deploy_list{
+    font-weight: 900;
+    font-size: 16px;
+    color: #959eb8;
+    list-style: none;
+    border-left: solid 2px #9ca0aa67;
+    padding: 0;
+}
+.deploy_list li{
+    padding: 10px;
+}
+.s_deploy .row.padding{
+    padding-top: 30px;
+}
+.s_deploy .box .titolosection{
+    font-size: 15px;
+    text-align: left;
+}
+.s_deploy .box .titolosection p{
+    font-size: 13px;
+    text-align: left;
+}
+.s_deploy .box img{
+    max-height: 35px;
+}
