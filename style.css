@@ -138,3 +138,15 @@ section{
     text-decoration: underline;
     color: #4a92f1;
 }
+
+
+/* PARTNERS */
+.s_partners img{
+    display: inline-block;
+}
+.s_partners .titolo{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #6F7B97;
+}
+
