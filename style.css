@@ -1,6 +1,12 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+.btnshadow{
+    box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.08);
+}
+.hover:hover{
+    cursor: pointer;
+}
 
 /* BG COLOR */
 .bg-white{
@@ -21,6 +27,8 @@
 }
 
 
+
+
 .logo{
     max-width: 130px;
     margin-right: 100px;
@@ -32,11 +40,12 @@
 nav [class*="col-"] > *{
     display: inline-block;
 }
-.nav>li>a{
+.nav li>a{
     color: #031C4E;
     font-size: 13px;
     font-weight: 600;
-    padding: 15px 5px;
+    padding: 5px 8px;
+    margin: 10px 0;
 }
 nav ul{
     vertical-align: middle;
@@ -48,7 +57,10 @@ nav ul li{
 .float-right{
     float: right;
 }
-
+#btnsignup{
+    color: #016DFF;
+    border: solid 1px #016DFF;
+}
 
 /* HERO */
 section{
@@ -71,4 +83,44 @@ section{
     line-height: 1.5;
     font-size: 34%;
     opacity: 0.7;
+}
+.btn_create{
+    background-color: #579AFF;
+    color: rgba(255, 255, 255, 0.849);
+    font-weight: 600;
+}
+.btn_sign{
+    color: #626262;
+    font-weight: 600;
+    border: none;
+}
+.whitebox{
+    padding: 20px 10px;
+    color:#031C4E;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.myform{
+    box-shadow:unset;
+    border: none;
+}
+.whitebox div:nth-child(2){
+    color: #006AFF;
+}
+.whitebox button{
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+    margin: 1px;
+}
+.disclamer{
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 500px;
+}
+.disclamer a{
+    text-decoration: underline;
+    color: #4a92f1;
 }
