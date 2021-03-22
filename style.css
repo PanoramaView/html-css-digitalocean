@@ -39,8 +39,9 @@
 .border{
     border: solid 1px black;
 }
-nav [class*="col-"] > *{
-    /* display: inline-block; */
+nav [class*="col-"] > ul,
+nav [class*="col-"] > .logo{
+    display: inline-block;
 }
 .nav li>a{
     color: #031C4E;
@@ -63,18 +64,10 @@ nav ul li{
     color: #016DFF;
     border: solid 1px #016DFF;
 }
-@media all and (max-width: 768px){
-    .mynav{
-        display: none;
-    }
-    .logo{
-        max-width: 200px;
-        margin-right: 100px;
-        vertical-align: middle;
-        padding: 20px 0;
-    }
-
+.hamburger{
+    display: none;
 }
+
 
 /* HERO */
 section{
@@ -379,6 +372,9 @@ footer .hli{
 }
 footer .ftlogo{
     opacity: 0.7;
+    margin-bottom: 20px;
+}
+footer .ftlogo img{
     max-height: 40px;
 }
 footer i{
@@ -458,3 +454,44 @@ footer i{
     border:solid 2px white;
 }
 
+@media all and (max-width: 768px){
+    /* NAV */
+    nav [class*="col-"] > ul{
+    display: none;
+}
+    .logo{
+        max-width: 200px;
+        margin-right: 100px;
+        vertical-align: middle;
+        padding: 20px 0;
+        display: inline-block;
+    }
+    .hamburger{
+        display: inline-block;
+        float: right;
+        color: #579AFF;
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .blocco .frecce{
+        display: none;
+    }
+
+    /* HERO */
+
+}
+@media(min-width: 768px){
+    /* NAV */
+    nav .container .logo{
+        margin-right: 0;
+    }
+
+    /* HERO */
+    .titolo{
+        font-family: inherit;
+        margin: 10px 0;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.1;
+    }
+}
