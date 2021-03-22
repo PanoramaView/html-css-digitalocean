@@ -17,7 +17,7 @@
 }
 .bg-grad{
     background: rgb(15, 36, 105);
-    background: linear-gradient(0deg, rgba(0,25,107,1) 0%, rgb(9, 84, 214) 100%);
+    background: linear-gradient(0deg, rgb(6, 29, 105) 0%, rgb(9, 84, 214) 100%);
     color: white;
 }
 .bg-blue{
@@ -333,4 +333,23 @@ section{
 }
 .s_start .box{
     margin: 20px 0;
+}
+
+/* FOOTER */
+footer{
+    
+    padding: 50px 0;
+}
+footer *{
+    color: rgba(255, 255, 255, 0.500);
+}
+footer ul{
+    list-style: none;
+}
+footer .hli{
+    color: white;
+}
+footer img{
+    opacity: 0.7;
+    max-height: 40px;
 }
