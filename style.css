@@ -16,8 +16,8 @@
     background-color: #F3F5F9;
 }
 .bg-grad{
-    background: rgb(0,25,107);
-    background: linear-gradient(0deg, rgba(0,25,107,1) 0%, rgba(0,71,197,1) 100%);
+    background: rgb(15, 36, 105);
+    background: linear-gradient(0deg, rgba(0,25,107,1) 0%, rgb(9, 84, 214) 100%);
     color: white;
 }
 .bg-blue{
@@ -91,6 +91,15 @@ section{
     margin: 10px 0;
     font-size: 50px;
     font-weight: 900;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+}
+.s_titolosection-white{
+    font-family: inherit;
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
     line-height: 1.1;
     color: white;
     text-align: center;
@@ -181,7 +190,7 @@ section{
     font-size: 15px;
     color: #6F7B97;
 }
-.s_partners .container > div:last-child{
+.bluetext{
     color: #4a92f1;
     font-weight: 600;
 }
@@ -242,4 +251,36 @@ section{
 }
 .mypager .active{
     background-color: #006AFF;
+}
+
+/* FEATURES */
+.s_features .box{
+    margin-top: 20px;
+}
+.s_features .box .titolosection{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 1000;
+}
+.s_features .box .titolosection p{
+    text-align: left;
+}
+.s_features .box img{
+    max-height: 35px;
+}
+
+/* SERVICE */
+.mytable{
+    color: white;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.mytable>tbody>tr:first-child > td{
+    border-top: none;
+}
+.mytable>tbody>tr>td:nth-child(2){
+    color: rgba(255, 255, 255, 0.747);
+}
+.mytable>tbody>tr>td:last-child{
+    padding-left:40%;
 }
