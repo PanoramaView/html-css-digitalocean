@@ -40,7 +40,7 @@
     border: solid 1px black;
 }
 nav [class*="col-"] > *{
-    display: inline-block;
+    /* display: inline-block; */
 }
 .nav li>a{
     color: #031C4E;
@@ -62,6 +62,18 @@ nav ul li{
 #btnsignup{
     color: #016DFF;
     border: solid 1px #016DFF;
+}
+@media all and (max-width: 768px){
+    .mynav{
+        display: none;
+    }
+    .logo{
+        max-width: 200px;
+        margin-right: 100px;
+        vertical-align: middle;
+        padding: 20px 0;
+    }
+
 }
 
 /* HERO */
@@ -132,6 +144,14 @@ section{
     background-color: #579AFF;
     color: rgba(255, 255, 255, 0.849);
     font-weight: 600;
+}
+.btn_create:hover,
+.btn_create:active{
+    background-color: #579AFF;
+    color: rgba(255, 255, 255, 0.849);
+    font-weight: 600;
+    border-color: inherit;
+    filter: brightness(90%);
 }
 .btn_sign{
     color: #626262;
@@ -348,11 +368,16 @@ footer *{
 }
 footer ul{
     list-style: none;
+    padding: 0;
+}
+footer li{
+    padding-bottom: 5px;
+    font-size: 13px;
 }
 footer .hli{
     color: white;
 }
-footer .logo{
+footer .ftlogo{
     opacity: 0.7;
     max-height: 40px;
 }
@@ -375,6 +400,7 @@ footer i{
     margin-right: 8px;
 }
 
+/* HELPER */
 .helper{
     position: fixed;
     bottom:30px;
@@ -431,3 +457,4 @@ footer i{
     border-radius: 50%;
     border:solid 2px white;
 }
+
