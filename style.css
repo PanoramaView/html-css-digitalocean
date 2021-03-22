@@ -234,8 +234,9 @@ section{
 .s_designed4dev .blocco > *{
     display: inline-block;
 }
-.s_designed4dev .blocco > .frecce{
+.frecce{
     font-size: 25px;
+    padding: 10px;
 }
 .mypager{
     color: #071f50;
@@ -283,4 +284,41 @@ section{
 }
 .mytable>tbody>tr>td:last-child{
     padding-left:40%;
+}
+
+/* DEVELOPMENT */
+.s_dev .boxbianco{
+    max-height: 310px;
+    background-color: white;
+    padding: 60px 1px;
+    max-width: 480px;
+    color: #071f50;
+}
+.s_dev .blocco{
+    margin-top: 60px;
+}
+.s_dev .blocco > *{
+    display: inline-block;
+}
+.s_dev .blocco > .frecce{
+    font-size: 25px;
+    vertical-align: 80px;
+}
+.boxbianco img{
+    max-height: 30px;
+    margin-bottom: 20px;
+}
+.boxbianco .s_undercaption{
+    font-size: 18px;
+}
+.boxbianco .p_undercaption{
+    color: #122a5c;
+    font-weight:900;
+    opacity: 1;
+}
+.boxbianco .p_undercaption p{
+    opacity: 0.9;
+}
+.s_dev .bluetext{
+    margin: 30px 0;
 }
