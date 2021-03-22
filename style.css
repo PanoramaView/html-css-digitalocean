@@ -392,6 +392,7 @@ footer i{
     padding: 8px;
     vertical-align: bottom;
     font-weight: 600;
+    position: relative;
 }
 .shark{
     background-color: #1167e9;
@@ -406,10 +407,10 @@ footer i{
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 50px 0 50px 60px;
-    border-color: transparent transparent transparent #ffffff;
-}
-.footer_link{
+    border-width: 8px 0 8px 8px;
+    border-color: transparent transparent transparent white;
+    position: absolute;
+    right: -8px;
 
 }
 .mybadge{
