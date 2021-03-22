@@ -16,13 +16,16 @@
     background-color: #F3F5F9;
 }
 .bg-grad{
-    background: rgb(15, 36, 105);
-    background: linear-gradient(0deg, rgb(6, 29, 105) 0%, rgb(9, 84, 214) 100%);
+    background: rgb(19, 49, 148);
+    background: linear-gradient(0deg, rgb(10, 41, 141) 0%, rgb(12, 71, 172) 100%);
     color: white;
 }
 .bg-blue{
     background-color: #031C4E;
     color: white;
+}
+.border-rounded{
+    border-radius: 5px;
 }
 
 
@@ -349,7 +352,81 @@ footer ul{
 footer .hli{
     color: white;
 }
-footer img{
+footer .logo{
     opacity: 0.7;
     max-height: 40px;
+}
+footer i{
+    font-size: 30px;
+}
+.copyright p{
+    opacity: 0.6;
+}
+.copyright{
+    font-size: 14;
+    margin-top: 10px;
+}
+.social{
+    font-size: 20px;
+    opacity: 0.8;
+}
+.social i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.helper{
+    position: fixed;
+    bottom:30px;
+    right:30px;
+}
+.helper *{
+    display: inline-block;
+}
+.myalert{
+    max-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    background-color: white;
+    color: #031C4E;
+    padding: 8px;
+    vertical-align: bottom;
+    font-weight: 600;
+}
+.shark{
+    background-color: #1167e9;
+    height: 45px;
+    width: 45px;
+    position: relative;
+}
+.shark img{
+    padding-top: 5px;
+}
+.triangolo{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 50px 60px;
+    border-color: transparent transparent transparent #ffffff;
+}
+.footer_link{
+
+}
+.mybadge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(45%,-45%);
+    display: inline-block;
+    padding: 3px 5.5px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: red;
+    border-radius: 50%;
+    border:solid 2px white;
 }
